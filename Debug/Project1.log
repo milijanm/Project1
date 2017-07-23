@@ -1,0 +1,6 @@
+﻿  MyForm.cpp
+  MyForm.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+Debug\MyForm.obj : warning LNK4042: object specified more than once; extras ignored
+MyForm.obj : error LNK2028: unresolved token (0A000008) "int __cdecl Project1::CalcMul_(int,int)" (?CalcMul_@Project1@@$$FYAHHH@Z) referenced in function "public: void __clrcall Project1::MyForm::button1_Click(class System::Object ^,class System::EventArgs ^)" (?button1_Click@MyForm@Project1@@$$FQ$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z)
+MyForm.obj : error LNK2019: unresolved external symbol "int __cdecl Project1::CalcMul_(int,int)" (?CalcMul_@Project1@@$$FYAHHH@Z) referenced in function "public: void __clrcall Project1::MyForm::button1_Click(class System::Object ^,class System::EventArgs ^)" (?button1_Click@MyForm@Project1@@$$FQ$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z)
+C:\Users\imandic\documents\visual studio 2015\Projects\Project1\Debug\Project1.exe : fatal error LNK1120: 2 unresolved externals
